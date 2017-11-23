@@ -27,7 +27,8 @@ body {
       body .site-wrapper .site-wrapper-inner .cover-container {
         padding-left: 40px; }
         body .site-wrapper .site-wrapper-inner .cover-container .cover {
-          padding: 0 1.5rem; }
+          padding: 0 1.5rem;
+          margin: 0 auto; }
           body .site-wrapper .site-wrapper-inner .cover-container .cover h1.brand {
             width: 70%; }
             body .site-wrapper .site-wrapper-inner .cover-container .cover h1.brand img {
@@ -101,7 +102,22 @@ strong {
 @media (max-width: 768px) {
   body {
     background: none; }
-    body .site-wrapper .site-wrapper-inner .cover-container {
-      padding: 20px 0px; } }
+    body .site-wrapper .site-wrapper-inner {
+      vertical-align: top; }
+      body .site-wrapper .site-wrapper-inner .cover-container {
+        padding: 20px 0px; }
+      body .site-wrapper .site-wrapper-inner .subscribe #mc_embed_signup form#mc-embedded-subscribe-form h2 {
+        text-align: left;
+        margin-bottom: 15px; }
+      body .site-wrapper .site-wrapper-inner .subscribe #mc_embed_signup form#mc-embedded-subscribe-form .mc-field-group {
+        margin-right: 0;
+        width: 100%;
+        margin-bottom: 15px; }
+        body .site-wrapper .site-wrapper-inner .subscribe #mc_embed_signup form#mc-embedded-subscribe-form .mc-field-group input {
+          width: 100%; }
+      body .site-wrapper .site-wrapper-inner .subscribe #mc_embed_signup form#mc-embedded-subscribe-form .clear {
+        width: 100%; }
+        body .site-wrapper .site-wrapper-inner .subscribe #mc_embed_signup form#mc-embedded-subscribe-form .clear input.button {
+          width: 100%; } }
 
 /*# sourceMappingURL=dev.css.map */
