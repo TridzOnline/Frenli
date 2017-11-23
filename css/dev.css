@@ -25,8 +25,6 @@ body {
       display: table-cell;
       vertical-align: middle; }
       body .site-wrapper .site-wrapper-inner .cover-container {
-        margin-right: auto;
-        margin-left: auto;
         padding-left: 40px; }
         body .site-wrapper .site-wrapper-inner .cover-container .cover {
           padding: 0 1.5rem; }

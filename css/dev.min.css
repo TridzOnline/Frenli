@@ -25,16 +25,17 @@ body {
       display: table-cell;
       vertical-align: middle; }
       body .site-wrapper .site-wrapper-inner .cover-container {
-        margin-right: auto;
-        margin-left: auto;
         padding-left: 40px; }
         body .site-wrapper .site-wrapper-inner .cover-container .cover {
           padding: 0 1.5rem; }
           body .site-wrapper .site-wrapper-inner .cover-container .cover h1.brand {
-            max-width: 250px;
+            width: 70%;
             margin-bottom: 30px; }
             body .site-wrapper .site-wrapper-inner .cover-container .cover h1.brand img {
               width: 100%; }
+          body .site-wrapper .site-wrapper-inner .cover-container .cover p {
+            font-size: 18px;
+            padding-left: 20px; }
 
 strong {
   font-weight: 700; }
