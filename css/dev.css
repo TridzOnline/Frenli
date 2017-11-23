@@ -29,13 +29,59 @@ body {
         body .site-wrapper .site-wrapper-inner .cover-container .cover {
           padding: 0 1.5rem; }
           body .site-wrapper .site-wrapper-inner .cover-container .cover h1.brand {
-            width: 70%;
-            margin-bottom: 30px; }
+            width: 70%; }
             body .site-wrapper .site-wrapper-inner .cover-container .cover h1.brand img {
               width: 100%; }
           body .site-wrapper .site-wrapper-inner .cover-container .cover p {
             font-size: 18px;
             padding-left: 20px; }
+      body .site-wrapper .site-wrapper-inner .subscribe {
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        padding: 30px 0;
+        background-color: #eee;
+        border-top: 1px solid #ddd; }
+        body .site-wrapper .site-wrapper-inner .subscribe #mc_embed_signup {
+          padding: 0 1.5rem; }
+          body .site-wrapper .site-wrapper-inner .subscribe #mc_embed_signup form#mc-embedded-subscribe-form {
+            text-align: center; }
+            body .site-wrapper .site-wrapper-inner .subscribe #mc_embed_signup form#mc-embedded-subscribe-form h2 {
+              font-size: 16px;
+              display: inline-block;
+              margin-right: 15px; }
+            body .site-wrapper .site-wrapper-inner .subscribe #mc_embed_signup form#mc-embedded-subscribe-form .indicates-required {
+              display: none; }
+            body .site-wrapper .site-wrapper-inner .subscribe #mc_embed_signup form#mc-embedded-subscribe-form .mc-field-group {
+              display: inline-block;
+              margin-right: 15px; }
+              body .site-wrapper .site-wrapper-inner .subscribe #mc_embed_signup form#mc-embedded-subscribe-form .mc-field-group label {
+                display: none; }
+              body .site-wrapper .site-wrapper-inner .subscribe #mc_embed_signup form#mc-embedded-subscribe-form .mc-field-group input {
+                border: none;
+                transition: all 0.5s ease-in-out 0s;
+                background: none;
+                border-bottom: 1px solid #aaa;
+                width: 220px;
+                padding: 2px 5px; }
+                body .site-wrapper .site-wrapper-inner .subscribe #mc_embed_signup form#mc-embedded-subscribe-form .mc-field-group input:focus {
+                  border-bottom: 2px solid #aaa;
+                  outline: none;
+                  transition: all 0.5s ease-in-out 0s; }
+            body .site-wrapper .site-wrapper-inner .subscribe #mc_embed_signup form#mc-embedded-subscribe-form #mce-responses {
+              display: inline-block; }
+            body .site-wrapper .site-wrapper-inner .subscribe #mc_embed_signup form#mc-embedded-subscribe-form .clear {
+              display: inline-block; }
+              body .site-wrapper .site-wrapper-inner .subscribe #mc_embed_signup form#mc-embedded-subscribe-form .clear input.button {
+                background: #469446;
+                box-shadow: none;
+                border: none;
+                padding: 5px 15px;
+                border-radius: 3px;
+                color: #fff;
+                transition: all 0.5s ease-in-out 0s; }
+                body .site-wrapper .site-wrapper-inner .subscribe #mc_embed_signup form#mc-embedded-subscribe-form .clear input.button:hover {
+                  background-color: #57b54c; }
 
 strong {
   font-weight: 700; }
@@ -50,7 +96,7 @@ strong {
     width: 100%;
     /* Must be percentage or pixels for horizontal alignment */ } }
 @media (min-width: 62em) {
-  .cover-container {
+  .cover-container .cover {
     width: 42rem; } }
 @media (max-width: 768px) {
   body {
